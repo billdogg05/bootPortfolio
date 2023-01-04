@@ -474,7 +474,69 @@ footer{
     color: #fefefe;
     font-family: 'Roboto Medium';
 }
+.header__list a{
+    margin-right: 30px;
+}
 /* ========== home end ========== */
+/* ========== about start ========== */
+.about-page__header{
+    background: white;
+    padding: 18px 0;
+    height: auto;
+}
+.about-self{
+    background: #323232;
+    padding: 100px 0;
+}
+.about-self__title{
+    color: white;
+    font-family: 'Montserrat Medium';
+    font-size: 62px;
+    margin-bottom: 5px;
+}
+.about-self__description{
+    font-family: 'NunitoSans Regular';
+    font-size: 23px;
+    line-height: 35px;
+    color: white;
+}
+
+.about-me__box{
+    background-color: #f8f9f9;
+    min-height: 500px;
+}
+.about-me .container-fluid{
+    background: url(../images/about-image.jpg) no-repeat;
+    background-position: left;
+    background-size: 50%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.about-me__title{
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    color: #171717;
+    margin-bottom: 27px;
+}
+.about-me__description{
+    line-height: 24px;
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.about-me__signature{
+    width: 222px;
+}
+
+
+.about-me__project{
+    padding: 100px 0;
+    
+}
+/* ========== about end ========== */
 /* ========== adaptive start ========== */
 @media(max-width:576px){
     .skills__progress{
