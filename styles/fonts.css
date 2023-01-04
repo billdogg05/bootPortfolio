@@ -14,3 +14,7 @@
     font-family: 'WorkSans Regular';
     src: url(../fonts/Work_Sans/WorkSans-Regular.ttf);
 }
+@font-face{
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}

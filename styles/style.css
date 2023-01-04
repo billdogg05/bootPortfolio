@@ -457,6 +457,24 @@ footer{
     font-family: 'NunitoSans Regular';
 }
 /* ========== footer end ========== */
+/* ========== home start ========== */
+.design{
+    padding: 100px 0;
+    background: #007d2f;
+}
+.design__title{
+    color: #171717;
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.design__description{
+    font-size: 18px;
+    line-height: 26px;
+    color: #fefefe;
+    font-family: 'Roboto Medium';
+}
+/* ========== home end ========== */
 /* ========== adaptive start ========== */
 @media(max-width:576px){
     .skills__progress{
