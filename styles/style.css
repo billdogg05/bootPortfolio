@@ -581,6 +581,49 @@ footer{
     text-transform: capitalize;
 }
 /* ========== contact end ========== */
+/* ========== contact end ========== */
+.breakfast__title{
+    font-family: 'Montserrat Medium';
+    font-size: 38px;
+    color: #171717;
+    margin-bottom: 27px;
+    text-transform: capitalize;
+}
+.breakfast__description{
+    line-height: 24px;
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #787878;
+}
+.breakfast__list a{
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    line-height: 36px;
+    color: #787878;
+}
+.breakfast__list span{
+    font-family: 'NunitoSans Bold';
+    margin-right: 10px;
+    color: #171717;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.breakfast__box{
+    background-color: #f8f9f9;
+    min-height: 500px;
+}
+.breakfast .container-fluid{
+    background: url(../images/project_single_image.jpg) no-repeat;
+    background-position: right;
+    background-size: 50%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+/* ========== contact end ========== */
 /* ========== adaptive start ========== */
 @media(max-width:576px){
     .skills__progress{
@@ -588,6 +631,11 @@ footer{
     }
     .progress{
         width: 100%;
+    }
+}
+@media(max-width:992px){
+    .mb-lg-50{
+        margin-bottom: 50px;
     }
 }
 /* ========== adaptive end ========== */
