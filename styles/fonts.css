@@ -11,6 +11,14 @@
     src: url(../fonts/Nunito_Sans/NunitoSans-Regular.ttf);
 }
 @font-face{
+    font-family: 'NunitoSans Bold';
+    src: url(../fonts/Nunito_Sans/NunitoSans-Bold.ttf);
+}
+@font-face{
     font-family: 'WorkSans Regular';
     src: url(../fonts/Work_Sans/WorkSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
 }

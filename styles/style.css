@@ -11,6 +11,7 @@ a{
 }
 ul{
     margin: 0;
+    padding: 0;
 }
 img{
     width: 100%;
@@ -84,7 +85,9 @@ header{
 .about__img{
     width: 220px;
 }
-
+.skills-xl__title{
+    padding-top: 50px;
+}
 .skills{
     background-color: #f8f9f9;
 }
@@ -92,7 +95,9 @@ header{
     background: url(../images/skills.jpg)no-repeat;
     background-position: right;
     background-size: 50%;
-    height: 570px;
+    min-height: 500px;
+    /* max-height: 570px; */
+    height: 100%;
 }
 .skills__title h2{
     font-family: 'Montserrat Medium';
@@ -127,10 +132,10 @@ header{
     background: #007d2f;
 
 }
-.skills__title .skills__progress:nth-child(3) .progress-bar{
+.skills__title .skills__progress:nth-child(2) .progress-bar{
     width: 90%;
 }
-.skills__title .skills__progress:nth-child(4) .progress-bar{
+.skills__title .skills__progress:nth-child(3) .progress-bar{
     width: 65%;
 }
 /* .skills__title p:nth-child(2):after{
@@ -175,7 +180,10 @@ header{
 
 .graphics__icons{
     background: #007d2f;
-    padding: 76px 0 80px;
+    padding: 76px 0 40px;
+}
+.icon__content{
+    margin-bottom: 40px;
 }
 .icon__content i{
     color: white;
@@ -343,7 +351,10 @@ header{
 }
 
 .mountains{
-    padding: 67px 0 61px;
+    padding: 67px 0 21px;
+}
+.mountains img{
+    margin-bottom: 40px;
 }
 
 .project__approach{
@@ -372,6 +383,8 @@ header{
     height: 48px;
     border: 0;
     padding: 0;
+    border-radius: 0;
+    padding-left: 14px;
 }
 .project__fieldset input::placeholder{
     color: #787878;
@@ -379,16 +392,16 @@ header{
     font-size: 15px;
     line-height: 24px;
     text-transform: capitalize;
-    padding-left: 14px;
+    /* padding-left: 14px; */
 }
 .project__comment textarea{
     height: 170px;
-    border: 0;
     resize: none;
     border: none;
     margin-bottom: 30px;
-    padding: 0;
+    padding-left: 14px;
     padding-top: 10px;
+    border-radius: 0;
 }
 .project__comment textarea::placeholder{
     color: #787878;
@@ -396,7 +409,10 @@ header{
     font-size: 15px;
     line-height: 24px;
     text-transform: capitalize;
-    padding-left: 14px;
+    /* padding-left: 14px; */
+}
+.project__comment textarea:focus,.project__fieldset input:focus{
+    box-shadow: none;
 }
 .project__button{
     border: none;
@@ -408,6 +424,9 @@ header{
     padding: 22px 25px;
     font-size: 12px;
     font-family: 'Montserrat Medium';
+}
+.project__button:hover{
+    color: white;
 }
 /* ========== main end ========== */
 /* ========== footer start ========== */
@@ -446,3 +465,177 @@ footer{
     font-family: 'NunitoSans Regular';
 }
 /* ========== footer end ========== */
+/* ========== home start ========== */
+.design{
+    padding: 100px 0;
+    background: #007d2f;
+}
+.design__title{
+    color: #171717;
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.design__description{
+    font-size: 18px;
+    line-height: 26px;
+    color: #fefefe;
+    font-family: 'Roboto Medium';
+}
+.header__list a{
+    margin-right: 30px;
+}
+/* ========== home end ========== */
+/* ========== about start ========== */
+.about-page__header{
+    background: white;
+    padding: 18px 0;
+    height: auto;
+}
+.about-self{
+    background: #323232;
+    padding: 100px 0;
+}
+.about-self__title{
+    color: white;
+    font-family: 'Montserrat Medium';
+    font-size: 62px;
+    margin-bottom: 5px;
+}
+.about-self__description{
+    font-family: 'NunitoSans Regular';
+    font-size: 23px;
+    line-height: 35px;
+    color: white;
+}
+
+.about-me__box{
+    background-color: #f8f9f9;
+    min-height: 500px;
+}
+.about-me .container-fluid{
+    background: url(../images/about-image.jpg) no-repeat;
+    background-position: left;
+    background-size: 50%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.about-me__title{
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    color: #171717;
+    margin-bottom: 27px;
+}
+.about-me__description{
+    line-height: 24px;
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #787878;
+}
+.about-me__signature{
+    width: 222px;
+}
+
+
+.about-me__project{
+    padding: 100px 0;
+}
+/* ========== about end ========== */
+/* ========== contact start ========== */
+.contact-info{
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+.contact-info .project__comment{
+    margin-bottom: 100px;
+}
+.contact-info__title{
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    color: #171717;
+    margin-bottom: 27px;
+    text-transform: capitalize;
+}
+.contact-info__description{
+    line-height: 24px;
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #787878;
+}
+.contact-info__list a{
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    line-height: 36px;
+    color: #787878;
+}
+.contact-info__list span{
+    font-family: 'NunitoSans Bold';
+    margin-right: 10px;
+    color: #171717;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/* ========== contact end ========== */
+/* ========== contact end ========== */
+.breakfast__title{
+    font-family: 'Montserrat Medium';
+    font-size: 38px;
+    color: #171717;
+    margin-bottom: 27px;
+    text-transform: capitalize;
+}
+.breakfast__description{
+    line-height: 24px;
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #787878;
+}
+.breakfast__list a{
+    font-family: 'NunitoSans Regular';
+    font-size: 16px;
+    line-height: 36px;
+    color: #787878;
+}
+.breakfast__list span{
+    font-family: 'NunitoSans Bold';
+    margin-right: 10px;
+    color: #171717;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.breakfast__box{
+    background-color: #f8f9f9;
+    min-height: 500px;
+}
+.breakfast .container-fluid{
+    background: url(../images/project_single_image.jpg) no-repeat;
+    background-position: right;
+    background-size: 50%;
+    height: 500px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+/* ========== contact end ========== */
+/* ========== adaptive start ========== */
+@media(max-width:576px){
+    .skills__progress{
+        width: 100%;
+    }
+    .progress{
+        width: 100%;
+    }
+}
+@media(max-width:992px){
+    .mb-lg-50{
+        margin-bottom: 50px;
+    }
+}
+/* ========== adaptive end ========== */
